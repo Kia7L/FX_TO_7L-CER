@@ -1,0 +1,17 @@
+[]{
+float DELAX
+float FOXTROT
+;If Game Isnt Working Try Removing Or Adding ;; On EveryLine
+;Testing...
+{
+PAUSE.SLEEP.TIMEOUT.REST.RESET.POSITION.FREQUENYTLY.CONTROLLER.CALIBRATION=DELAX
+float DELAX=11[<NUL]*0 11
+return=DELAX
+}
+;RECOIL FIX
+{
+RECOIL.SHOT.FIRE.TRIGGER=FOXTROT
+float FOXTROT=(0.2>[@]<-2.4) 1111
+return FOXTROT
+}
+}
